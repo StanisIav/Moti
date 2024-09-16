@@ -1,0 +1,17 @@
+.st-work-space {
+    &__block {
+        max-width: 80%;
+    }
+
+    &__container {
+        display: grid;
+        grid-template-columns: 150px 1fr 150px; /* Фіксовані 1-й і 3-й стовпці, середній - адаптивний */
+        grid-template-rows: 200px 200px; /* Фіксована висота для двох рядків */
+        gap: 10px; /* Відступ між блоками */
+        height: 100vh;
+    }
+
+    &__head-container {
+        margin-top: 30px;
+    }
+}

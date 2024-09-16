@@ -1,0 +1,45 @@
+.st-sidebar {
+    &__container {
+        display: inline-block;
+        height: 100vh;
+        background-color: #F7F7F5;
+        position: fixed;
+    }
+
+    &__header-img {
+        height: 24px;
+        width: auto;
+        float: right;
+        display: block;
+    }
+
+    &__header {
+        padding: 10px;
+    }
+
+    &__icon-plus {
+        height: 10px;
+        width: auto;
+    }
+
+    &__list {
+        width: 215px;
+        margin-top: 3px;
+    }
+
+    &__list-item {
+        height: fit-content;
+        min-height: 15px;
+        padding: 7px 10px;
+
+    }
+
+    &__item-img {
+        height: 15px;
+        width: auto;
+    }
+
+    &__item-text {
+        margin: 0px 15px;
+    }
+}
